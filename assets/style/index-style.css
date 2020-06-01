@@ -1,0 +1,19 @@
+.navbar-brand {
+    color: #FFFFFF !important;
+    background-color: #59AAA5 !important;
+    padding: .85rem .85rem;
+}
+
+h1, h2, h3 {
+    color: #59AAA5;
+}
+
+.headshot {  
+    width: 200px; /* Your chosen height */
+     height: auto; /* Must be auto */
+}
+
+.headshot img {
+    width: 100%; /* Must be 100% */
+     height: auto; /* Must be auto */
+}
