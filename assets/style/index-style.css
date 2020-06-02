@@ -1,19 +1,57 @@
-.navbar-brand {
-    color: #FFFFFF !important;
-    background-color: #59AAA5 !important;
-    padding: .85rem .85rem;
+*{
+    
+    font-family: 'Times New Roman', Times, serif;
 }
 
-h1, h2, h3 {
+body {
+    background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.navbar {
+    background-color: white !important;
+    padding: 1% !important;
+}
+
+.navbar-brand {
+    color: #FFFFFF !important;
+    background-color: #59AAA5;
+    padding: 1%;
+    
+}
+
+section {
+    background-color: white;
+}
+
+p {
+    background-color: white;
+}
+
+li { 
+    background-color: white;
+}
+
+h1 {
     color: #59AAA5;
+    background-color: white;
+    
+   
 }
 
 .headshot {  
-    width: 200px; /* Your chosen height */
-     height: auto; /* Must be auto */
+    width: 150px; /* Your chosen height */
+    height: auto; /* Must be auto */
+    float: left;
+    margin: 1px;
 }
 
 .headshot img {
     width: 100%; /* Must be 100% */
-     height: auto; /* Must be auto */
-}
+    height: auto; /* Must be auto */
+    margin: 1px;
+    }
+
+    
