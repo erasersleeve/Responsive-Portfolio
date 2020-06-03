@@ -11,17 +11,15 @@ Link to deployed application: https://erasersleeve.github.io/Responsive-Portfoli
 ## Screenshots
 
 
-![1](assets\images\README imgs\Capture d’écran (3).png)
-![2](assets\images\README imgs\Capture d’écran (4).png)
-![3](assets\images\README imgs\Capture d’écran (5).png)
-![4](assets\images\README imgs\Capture d’écran (6).png)
-![5](assets\images\README imgs\Capture d’écran (7).png)
-![6](assets\images\README imgs\Capture d’écran (8).png)
-![7](assets\images\README imgs\Capture d’écran (9).png)
-![8](assets\images\README imgs\Capture d’écran (10).png)
-![9](assets\images\README imgs\Capture d’écran (11).png)
-
-
+![1](https://github.com/erasersleeve/Responsive-Portfolio/blob/master/assets/images/README%20imgs/Capture%20d%E2%80%99%C3%A9cran%20(3.png)
+![2](https://github.com/erasersleeve/Responsive-Portfolio/blob/master/assets/images/README%20imgs/Capture%20d%E2%80%99%C3%A9cran%20(4).png)
+![3](https://github.com/erasersleeve/Responsive-Portfolio/blob/master/assets/images/README%20imgs/Capture%20d%E2%80%99%C3%A9cran%20(5).png)
+![4](https://github.com/erasersleeve/Responsive-Portfolio/blob/master/assets/images/README%20imgs/Capture%20d%E2%80%99%C3%A9cran%20(6).png)
+![5](https://github.com/erasersleeve/Responsive-Portfolio/blob/master/assets/images/README%20imgs/Capture%20d%E2%80%99%C3%A9cran%20(7).png)
+![6](https://github.com/erasersleeve/Responsive-Portfolio/blob/master/assets/images/README%20imgs/Capture%20d%E2%80%99%C3%A9cran%20(8).png)
+![7](vttps://github.com/erasersleeve/Responsive-Portfolio/blob/master/assets/images/README%20imgs/Capture%20d%E2%80%99%C3%A9cran%20(9).png
+![8](https://github.com/erasersleeve/Responsive-Portfolio/blob/master/assets/images/README%20imgs/Capture%20d%E2%80%99%C3%A9cran%20(10).png)
+![9](https://github.com/erasersleeve/Responsive-Portfolio/blob/master/assets/images/README%20imgs/Capture%20d%E2%80%99%C3%A9cran%20(11).png)
 
 
 
