@@ -1,68 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Winters</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style/index-style.css">
-
-</head>
-
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title">Tim Web Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand nav-link" href="index.html">Tim Winters</a>
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
           </ul>
       </nav>
-    </header>    
-
-  
-    <main class="container">
-            
-      <section class="row mt-5 p-3 border-bottom border-dark bg-light rounded">   
-        <h1>
-          About Me
-        </h1>
+    </header> 
+    <button id="navbar-toggler"><i class="fas fa-bars"></i></button>
+    <div class="nav-layer">
+      <ul>
+        <li class="languages">
+          <span class="fr">FR</span><span>|</span><span class="eng">ENG</span>
+        </li>
+        <li>
+          <a href="#about"><span>01. </span>About Me</a>
+        </li>
+        <li>
+          <a href="#work"><span>02. </span>My Work</a>
+        </li>
+        <li>
+          <a href="#contact"><span>03. </span>Contact</a>
+        </li>
+      </ul>
+    </div>
+    <main>
+      <section id="presentation">
+        <h5>Hello World, I'm</h5>
+        <h1>Tim</h1>
+        <h2>Web Developer / Data Analyst</h2>
+        <p id="intro">
+          I'm a <span>Philadelphia</span> based
+          <span>MERN stack trained web developer</span> with a background in education
+          that transitioned to web development in the spring of 2020 by completing the PENN LPS Coding Bootcamp
+          at the University of Pennslyvania. I am committed to making sustainable web applications with the best
+          user experience possible
+        </p>
+        <button><a href="#contact">Contact me</a></button>
       </section>
-            
-      <section class="row pt-3 pb-3 rounded">
-        <section class="col-7">            
-          <img class="headshot pr-3" src="https://github.com/erasersleeve/Responsive-Portfolio/blob/master/assets/images/head.jpg?raw=true" alt="Headshot">     
-          <p>Hello and welcome! My name is Tim Winters and this is my portfolio site. I'm a 26 year old with a background in education and the humanities trying to start a new career path. On my portfolio page you can find some examples of my work, and if you want to know more or reach out to me you can find links to my other accounts as well as a form to send me a message. </p>
-        </section>  
+      <section id="about">
+        <h3><span>01. </span> About Me <hr></h3>
+        <p class="aboutMe">
+          I've always been interested in computer science, having built several of my own computers and doing some basic game modding over the years. But I never had much experience coding until the winter of 2019 when I had time off from working and began to teach myself Javascript.
+          More of a curiosity project than anything I got the fundamentals down but took a break when I went back to work that spring. The seed had been planted though, and I soon was thinking of how to develop my skills further. I considered going back to school for a second degree, and even 
+          enrolled in classes but heard good things about the University of Pennsylvania's Coding Bootcamp. So, in 2020 I enrolled in that course and had a great --if challenging-- time. Since then I've been working for 2u education as a centralize grader for their coding programs and am looking 
+          to find a role as a developer.
+        </p>
+        <p class="aboutMe">Here are some of the technologies I'm comfortable with: </p>
+        <ul>
+            <li>Git</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>Javascript ES6</li>
+            <li>Node.js</li>
+            <li>ReactJS</li>
+            <li>MongoDB</li>
+            <li>ExpressJS</li>
+            <li>jQuery</li>
+            <li>Bootstrap 4</li>
+        </ul>
       </section>
-
-    </main>
-
-    <footer class="container mt-5">
-      <div class="card row no-gutters text-center">
-        <div class="card-body pl-0 pr-0 ml-5 mr-5">
-          <h5 class="card-title">Thank You for Visiting!</h5>
+      <section id="portfolio">
+        <h3><span>02. </span> My Work <hr></h3>
+        <div id="project-cards">
         </div>
-      </div>
+      </section>
+      <section id="contact">
+        <h3><span>03. </span> Contact Me <hr></h3>
+        <div id="links-contact">
+          <a href="https://www.linkedin.com/in/timwinters99/"><i class="fab fa-linkedin-in"></i>   https://www.linkedin.com/in/timwinters99/</a>
+          <a href="https://github.com/erasersleeve"><i class="fab fa-github"></i>   https://github.com/erasersleeve</a>
+          <a href="mailto:timwinters99@gmail.com"><i class="fas fa-envelope-square"></i>   timwinters99@gmail.com</a>
+          <a href="./assets/supplemental/Resume.pdf" class="link"><i class="fas fa-file-alt"></i>Resume</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <p id="builtBy">Built by <a href="https://github.com/erasersleeve">Tim</a></p>
+        <p id="builtBy">Original Image Taken at Stubaier Gletscher, Austria</p>
+        
     </footer>
-    
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./languages.js"></script>
+  </body>
 </html>
